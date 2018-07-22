@@ -1,0 +1,7 @@
+F:\GitFolder\master\GuessTheWords\GuessTheWords\bin\Debug\GuessTheWords.exe.config
+F:\GitFolder\master\GuessTheWords\GuessTheWords\bin\Debug\GuessTheWords.exe
+F:\GitFolder\master\GuessTheWords\GuessTheWords\bin\Debug\GuessTheWords.pdb
+F:\GitFolder\master\GuessTheWords\GuessTheWords\obj\Debug\GuessTheWords.csprojAssemblyReference.cache
+F:\GitFolder\master\GuessTheWords\GuessTheWords\obj\Debug\GuessTheWords.csproj.CoreCompileInputs.cache
+F:\GitFolder\master\GuessTheWords\GuessTheWords\obj\Debug\GuessTheWords.exe
+F:\GitFolder\master\GuessTheWords\GuessTheWords\obj\Debug\GuessTheWords.pdb
