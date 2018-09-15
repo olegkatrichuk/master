@@ -1,0 +1,38 @@
+﻿@using MyShop.Models
+@{
+    ViewData["Title"] = "Сортировка ";
+}
+@model IEnumerable<Product>
+<h1>Список продуктов</h1>
+<h3>Для сортировки нажмите на название поля</h3>
+<table class="table">
+    <tr>
+        <th>
+            <a asp-action="Sorted" asp-route-sortOrder="@ViewBag.NameSort">
+                Имя
+            </a>
+        </th>
+        <th>
+            <a asp-action="Sorted" asp-route-sortOrder="@ViewBag.DescriptionSort">
+                Описание
+            </a>
+        </th>
+        <th>
+            <a asp-action="Sorted" asp-route-sortOrder="@ViewBag.PriceSort">
+                Цена
+            </a>
+        </th>
+        <th>
+            <a asp-action="Sorted" asp-route-sortOrder="@ViewBag.RatingSort">
+                Рейтинг
+            </a>
+        </th>
+    </tr>
+    @foreach (Product u in Model)
+    {
+    <tr><td>@u.Name</td><td>@u.Description</td><td>@u.Price</td><td>@u.Rating</td></tr>
+    }
+</table>
+
+
+

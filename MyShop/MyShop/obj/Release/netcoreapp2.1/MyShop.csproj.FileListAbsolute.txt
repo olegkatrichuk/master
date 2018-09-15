@@ -1,0 +1,11 @@
+F:\Hillel\Elemen\elementary01\oleg_katrichuk\MyShop\MyShop\bin\Release\netcoreapp2.1\MyShop.deps.json
+F:\Hillel\Elemen\elementary01\oleg_katrichuk\MyShop\MyShop\bin\Release\netcoreapp2.1\MyShop.runtimeconfig.json
+F:\Hillel\Elemen\elementary01\oleg_katrichuk\MyShop\MyShop\bin\Release\netcoreapp2.1\MyShop.runtimeconfig.dev.json
+F:\Hillel\Elemen\elementary01\oleg_katrichuk\MyShop\MyShop\bin\Release\netcoreapp2.1\MyShop.dll
+F:\Hillel\Elemen\elementary01\oleg_katrichuk\MyShop\MyShop\bin\Release\netcoreapp2.1\MyShop.pdb
+F:\Hillel\Elemen\elementary01\oleg_katrichuk\MyShop\MyShop\obj\Release\netcoreapp2.1\MyShop.csprojAssemblyReference.cache
+F:\Hillel\Elemen\elementary01\oleg_katrichuk\MyShop\MyShop\obj\Release\netcoreapp2.1\MyShop.csproj.CoreCompileInputs.cache
+F:\Hillel\Elemen\elementary01\oleg_katrichuk\MyShop\MyShop\obj\Release\netcoreapp2.1\MyShop.AssemblyInfoInputs.cache
+F:\Hillel\Elemen\elementary01\oleg_katrichuk\MyShop\MyShop\obj\Release\netcoreapp2.1\MyShop.AssemblyInfo.cs
+F:\Hillel\Elemen\elementary01\oleg_katrichuk\MyShop\MyShop\obj\Release\netcoreapp2.1\MyShop.dll
+F:\Hillel\Elemen\elementary01\oleg_katrichuk\MyShop\MyShop\obj\Release\netcoreapp2.1\MyShop.pdb

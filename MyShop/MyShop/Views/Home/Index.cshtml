@@ -1,0 +1,49 @@
+﻿@model IEnumerable<MyShop.Models.Product>
+@{
+    ViewBag.Title = "Все товары ";
+}
+<div style="background-color: aqua">
+    <br/>
+    <p>Пользователь : @ViewBag.info</p>
+    <br/>
+    <a asp-action="Create" style="font-size: 18px">Добавить новый товар</a>
+    <br/>
+    <br/>
+
+    <table class="table">
+        <tr style="font-weight: bold"><td>Название товара</td><td>Описание</td><td>Цена</td><td>Рейтинг</td></tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Description</td>
+                <td>@item.Price</td>
+                <td>@item.Rating</td>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <td><a asp-action="Buy" asp-route-id="@item.Id">Купить</a></td>
+                }
+                @if (!User.Identity.IsAuthenticated)
+                {
+                    <td><a asp-action="Buy" asp-route-id="@item.Id"></a></td>
+                }
+            </tr>
+        }
+    </table>
+</div>
+<div style="background-color: aliceblue">
+    <p><h3>Редактирование товара</h3></p>
+    <br/>
+    <table class="table">
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td><a asp-action="Details" asp-controller="Home" asp-route-id="@item.Id">Подробнее</a> |
+                    <a asp-action="Edit" asp-controller="Home" asp-route-id="@item.Id">Изменить</a> |
+                    <a asp-action="Delete" asp-controller="Home" asp-route-id="@item.Id">Удалить</a>
+                </td>
+            </tr>
+        }
+    </table>
+</div>

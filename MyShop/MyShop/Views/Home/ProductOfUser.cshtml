@@ -1,0 +1,22 @@
+﻿@model IEnumerable<MyShop.Models.Product>
+@{
+    ViewData["Title"] = "ProductOfUser";
+}
+<p>Пользаватель : @ViewBag.info</p>
+<h2>Продукты для заказа</h2>
+
+<div>
+    <table class="table">
+        <tr style="font-weight: bold"><td>Название товара</td><td>Описание</td><td>Цена</td><td>Рейтинг</td></tr>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Description</td>
+            <td>@item.Price</td>
+            <td>@item.Rating</td>
+            <td><a href="~/Home/Buy/@item.Id">Купить</a></td>
+        </tr>
+        }
+    </table>
+</div>

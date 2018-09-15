@@ -1,0 +1,26 @@
+﻿@model MyShop.Models.Product
+@{
+    ViewData["Title"] = "Редактирование продукта";
+}
+
+<form asp-action="edit" asp-controller="home" asp-route-id="@Model.Id">
+    <div class="form-group">
+        <label asp-for="Name" class="control-label">Название</label><br/>
+        <input type="text" asp-for="Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Description" class="control-label">Описание</label>
+        <input type="text" asp-for="Description" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Price" class="control-label">Цена</label>
+        <input type="number" asp-for="Price" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Rating" class="control-label">Рейтинг</label>
+        <input type="number" asp-for="Rating" class="form-control" />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Изменить" class="btn btn-default" />
+    </div>
+</form>

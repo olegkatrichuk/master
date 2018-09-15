@@ -1,0 +1,18 @@
+﻿@model MyShop.Models.Product
+@{
+    ViewData["Title"] = Model.Name;
+}
+
+<h2>Товар @Model.Name</h2>
+<div>
+    <dl class="dl-horizontal">
+        <dt>Описание</dt>
+        <dd>@Model.Description</dd>
+
+        <dt>Цена</dt>
+        <dd>@Model.Price</dd>
+        
+        <dd>Рейтинг</dd>
+        <dd>@Model.Rating</dd>
+    </dl>
+</div>
